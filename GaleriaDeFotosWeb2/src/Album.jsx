@@ -46,7 +46,7 @@ const Album = () => {
       <h1 className='text-2xl font-bold my-4'>{title}</h1>
       <div className='flex flex-wrap gap-2'>
         {photos && photos.map((item) => {
-            return <CardImage key={id} id={id} image={item.url} />
+            return <CardImage key={id} id={item.id} image={item.url} />
         })}
       </div>
     </div>
