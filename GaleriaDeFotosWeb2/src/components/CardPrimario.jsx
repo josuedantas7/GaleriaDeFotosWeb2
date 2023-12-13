@@ -15,5 +15,6 @@ export default CardPrimario
 
 
 CardPrimario.propTypes = {
+    id: Proptypes.number.isRequired,
     title: Proptypes.string.isRequired
 }
